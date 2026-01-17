@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "2337373280",
+    "project_id": "linkstometers-area",
+    "storage_bucket": "linkstometers-area.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2337373280:android:71b10f4999211ae2de1705",
+        "android_client_info": {
+          "package_name": "com.area.linkstometers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBePssFHZO4Vj1MnBoNoyv_19cuFdfg3HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

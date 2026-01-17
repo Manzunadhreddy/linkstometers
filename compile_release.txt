@@ -1,0 +1,72 @@
+﻿
+> Configure project :app
+.\gradlew.bat : e: fi
+le:///C:/project/link
+stometers/app/build.g
+radle.kts:25:47: 
+Unresolved reference 
+'util'.
+At line:1 char:1
++ .\gradlew.bat 
+compileReleaseKotlin 
+2>&1 | Out-File 
+-FilePath compile_ 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (e: file   
+ :///C:/p...feren    
+ce 'util'.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* Where:
+Build file 'C:\projec
+t\linkstometers\app\b
+uild.gradle.kts' 
+line: 25
+
+* What went wrong:
+Script compilation 
+error:
+
+  Line 25:           
+      val 
+keystoreProperties = 
+java.util.Properties(
+)
+                     
+                     
+               ^ 
+Unresolved reference 
+'util'.
+
+1 error
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+generate a Build 
+Scan (Powered by 
+Develocity).
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 3s

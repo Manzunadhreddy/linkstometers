@@ -1,0 +1,84 @@
+﻿
+> Configure project :app
+.\gradlew.bat : e: fi
+le:///C:/project/link
+stometers/app/build.g
+radle.kts:8:31: 
+Unresolved reference 
+'util'.
+At line:1 char:1
++ .\gradlew.bat 
+assembleRelease 2>&1 
+| Out-File -FilePath 
+release_build ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (e: file   
+ :///C:/p...feren    
+ce 'util'.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+e: file:///C:/project
+/linkstometers/app/bu
+ild.gradle.kts:10:34:
+ Unresolved 
+reference 'io'.
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* Where:
+Build file 'C:\projec
+t\linkstometers\app\b
+uild.gradle.kts' 
+line: 8
+
+* What went wrong:
+Script compilation 
+errors:
+
+  Line 08: val 
+keystoreProperties = 
+java.util.Properties(
+)
+                     
+                    
+^ Unresolved 
+reference 'util'.
+
+  Line 10:     keysto
+reProperties.load(jav
+a.io.FileInputStream(
+keystorePropertiesFil
+e))
+                     
+                     
+  ^ Unresolved 
+reference 'io'.
+
+2 errors
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+generate a Build 
+Scan (Powered by 
+Develocity).
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 5s

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Links to Meters</string>
+    
+    <!-- Navigation -->
+    <string name="nav_convert">Convert</string>
+    <string name="nav_scan">Scan</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Convert Screen -->
+    <string name="convert_title">Links Converter</string>
+    <string name="convert_subtitle">For Surveyors &amp; Land Measurement Professionals</string>
+    <string name="input_label">Enter Links</string>
+    <string name="input_placeholder">0.0</string>
+    <string name="clear_button">Clear</string>
+    
+    <!-- Conversion Formulas -->
+    <string name="formula_meters">1 link = 0.201168 meters</string>
+    <string name="formula_feet">1 link = 0.660 feet</string>
+    
+    <!-- Units -->
+    <string name="unit_meters">m</string>
+    <string name="unit_feet">ft</string>
+    <string name="unit_links">links</string>
+    
+    <!-- Error Messages -->
+    <string name="error_invalid_input">Please enter a valid number</string>
+    <string name="error_negative_value">Value cannot be negative</string>
+    
+    <!-- Info -->
+    <string name="about_links_title">About Links</string>
+    <string name="about_links_description">A link is a unit of length used in surveying. It\'s part of Gunter\'s chain, which is 66 feet long and divided into 100 links.</string>
+    
+    <!-- Coming Soon -->
+    <string name="coming_soon">Coming Soon</string>
+    <string name="scan_description">Scan measurement documents to automatically extract link values and convert them instantly.</string>
+    <string name="history_description">View and manage your conversion history. Access previous calculations and save frequently used values.</string>
+    <string name="settings_description">Configure app preferences, unit display options, decimal precision, and theme settings.</string>
+</resources>
